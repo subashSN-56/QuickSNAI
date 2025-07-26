@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 import Sidebar from '../components/Sidebar'
 import {SignIn, useUser } from '@clerk/clerk-react'
 
-const LayOut = () => {
+const Layout = () => {
   const navigate = useNavigate()
   const [sidebar, setSidebar] = useState(false)
   const {user} = useUser()
@@ -40,4 +40,4 @@ const LayOut = () => {
   )
 }
 
-export default LayOut
+export default Layout
