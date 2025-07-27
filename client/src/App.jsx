@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import { SignedIn, SignedOut, RedirectToSignIn, useAuth } from '@clerk/clerk-react'
 
 import Home from './pages/Home.jsx'
-import Layout from './pages/Layout.jsx'
+import Layout from './pages/LayOut.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import WriteArticle from './pages/WriteArticle.jsx'
 import BlogTitles from './pages/BlogTitles.jsx'
